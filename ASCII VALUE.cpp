@@ -1,12 +1,11 @@
 #include<iostream>
 using namespace std;
-int main () {
-    char ch;
-    int i;
-    cin>>ch;
-    i=ch;
-    cout<<i<<endl;
-
-
-	return 0;
+int main () 
+{
+    char c;
+    int j;
+    cin>>c;
+    j=c;
+    cout<<j<<endl;
+    return 0;
 }
