@@ -2,16 +2,18 @@
 using namespace std;
 int main()
 {
-    int n,line,i,counter,j;
-    cin>>n;
-    counter=0;
-    while(n>0)
+    int N, line, i, count, j;
+    cout<<"Enter N : \n";
+    cin>>N;
+    count = 0;
+    while(N>0)
     {
-        if(n%2==1)
+        if(N%2 == 1)
         {
-            counter++;
+            count++;
         }
-        n=n/2;
+        N=N/2;
     }
-    cout<<counter;
+    cout<<count;
+    return 0;
 }
