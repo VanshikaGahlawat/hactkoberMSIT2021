@@ -24,7 +24,7 @@ class graph
             cout<<node.first<<"-->";
             for(auto children:node.second)
             {
-                cout<<children<<" ";
+                cout<<children<<"  ";
             }
             cout<<endl;
         }
@@ -91,7 +91,7 @@ class graph
 
         for(auto node:dist)
         {
-            cout<<node.first<<" "<<node.second<<endl;
+            cout<<node.first<<"  "<<node.second<<endl;
         }
 
     }
@@ -127,10 +127,5 @@ int main()
     }
 
     g.sssp(0,36);
-
-
-
-
-
     return 0;
 }
